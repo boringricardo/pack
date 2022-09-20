@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "shadow:watch": "shadow-cljs watch app",
+    "shadow:release": "shadow-cljs release app",
+    "postcss:build": "postcss src/css/tailwind.css -o ./public/css/app.css --verbose",
+    "postcss:watch": "postcss src/css/tailwind.css -o ./public/css/app.css --verbose -w",
+    "postcss:release": "cross-env NODE_ENV=production postcss src/css/tailwind.css -o ./public/css/app.css --verbose",
+    "dev": "run-p -l *:watch",
+    "release": "run-s *:release"
+  },
+  "dependencies": {
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-react": "^0.8.1",
+    "@inertiajs/progress": "^0.2.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.11",
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-nesting": "^10.2.0",
+    "shadow-cljs": "^2.20.2",
+    "tailwindcss": "^3.1.8"
+  }
+}

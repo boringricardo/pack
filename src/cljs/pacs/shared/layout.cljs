@@ -1,5 +1,5 @@
-(ns pacs.shared.layout
-  (:require [pacs.shared.flash :refer [flash-messages]]))
+(ns pack.shared.layout
+  (:require [pack.shared.flash :refer [flash-messages]]))
 
 (defn layout
   [children]

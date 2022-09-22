@@ -12,7 +12,7 @@
    :output-dir "public/js"
    :asset-path "/js"
    :module-hash-names true
-   :modules {:app {:init-fn pacs.core/init!}}
+   :modules {:app {:init-fn pack.core/init!}}
    :build-hooks
    [(shadow.cljs.build-report/hook)]
    :devtools {:watch-dir "public"}}}}

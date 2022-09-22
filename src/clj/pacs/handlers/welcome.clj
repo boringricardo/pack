@@ -1,4 +1,4 @@
-(ns pacs.handlers.welcome
+(ns pack.handlers.welcome
   (:require [inertia.middleware :as inertia]))
 
 (defn index [_]

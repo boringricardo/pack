@@ -1,4 +1,4 @@
-(ns pacs.templates.error
+(ns pack.templates.error
   (:require [hiccup.page :as page]))
 
 (def not-found

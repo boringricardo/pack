@@ -17,10 +17,10 @@
  {:dev
   {:extra-paths ["dev/src"]
    :extra-deps {integrant/repl {:mvn/version "0.3.2"}}}
-  :run {:main-opts ["-m" "pacs.core"]}
+  :run {:main-opts ["-m" "pack.core"]}
   :uberjar {:replace-deps {com.github.seancorfield/depstar {:mvn/version "2.1.303"}}
             :exec-fn hf.depstar/uberjar
             :exec-args {:aot true
-                        :jar "pacs.jar"
-                        :main-class "pacs.system"
+                        :jar "pack.jar"
+                        :main-class "pack.system"
                         :sync-pom true}}}}

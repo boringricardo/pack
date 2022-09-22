@@ -8,7 +8,7 @@
 /public/js/*.map
 /public/css/*.css
 /public/js/report.html
-/pacs.jar
+/pack.jar
 *js.map
 .cache
 .dir-locals.el

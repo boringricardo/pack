@@ -1,4 +1,4 @@
-(ns pacs.middleware.inertia)
+(ns pack.middleware.inertia)
 
 (defn wrap-inertia-share [handler _db]
   (fn [request]

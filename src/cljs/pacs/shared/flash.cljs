@@ -1,4 +1,4 @@
-(ns pacs.shared.flash
+(ns pack.shared.flash
   (:require ["@inertiajs/inertia-react" :refer [usePage]]
             [applied-science.js-interop :as j]
             ["react" :as react]))

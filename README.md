@@ -1,2 +1,2 @@
-# PACS
-(Pretty awesome Clojure starter)
+# Pack
+(Pretty awesome Clojure kit)

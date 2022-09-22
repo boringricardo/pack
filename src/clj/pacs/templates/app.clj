@@ -1,4 +1,4 @@
-(ns pacs.templates.app
+(ns pack.templates.app
   (:require [clojure.edn :as edn]
             [hiccup.page :as page]))
 

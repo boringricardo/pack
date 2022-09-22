@@ -1,9 +1,9 @@
-(ns pacs.router
+(ns pack.router
   (:require [inertia.middleware :as inertia]
-            [pacs.handlers.welcome :as welcome]
-            [pacs.middleware.inertia :refer [wrap-inertia-share]]
-            [pacs.templates.error :refer [not-found]]
-            [pacs.templates.app :refer [template]]
+            [pack.handlers.welcome :as welcome]
+            [pack.middleware.inertia :refer [wrap-inertia-share]]
+            [pack.templates.error :refer [not-found]]
+            [pack.templates.app :refer [template]]
             [reitit.coercion.schema :as schema-coercion]
             [reitit.dev.pretty :as pretty]
             [reitit.ring :as ring]

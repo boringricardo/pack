@@ -15,6 +15,6 @@ This approach allow you to build an SPA without thinking about writing fetch req
 
 ## Special thanks
 
-This repo is starting out as pretty much a copy of [Prestance Design's PingCRM clone](https://github.com/prestancedesign/pingcrm-clojure/) it also uses their Inertia integration.
+This repo is starting out as pretty much a copy of [prestancedesign's PingCRM clone](https://github.com/prestancedesign/pingcrm-clojure/) it also uses their [Inertia integration](https://github.com/prestancedesign/inertia-clojure/).
 
 Without those two projects, this project wouldn't exist.
